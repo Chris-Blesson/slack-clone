@@ -1,0 +1,23 @@
+<!-- Channel -->
+
+    <ChatContainer @channel={{this.model}} as |messages channelApi| >
+    <!-- Channel Header -->
+    <ChannelHeader
+        @title={{this.model.name}}
+        @description={{this.model.description}}>
+    </ChannelHeader>
+
+    <!-- Channel Message List -->
+    <div class="py-4 flex-1 overflow-y-scroll channel-messages-list" role="list">
+        {{#each messages as |message|}}
+             <Message @message={{message}} @delete={{fn channelApi.deleteMessage message.id}}></Message>
+        {{/each}}
+        <!-- Message -->
+       
+
+    </div>
+
+    <!-- Channel Footer -->
+    <ChannelFooter @sendMessage={{channelApi.createMessage}}></ChannelFooter>
+</ChatContainer>
+
