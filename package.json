@@ -1,1 +1,63 @@
-{"dependencies":{"abortcontroller-polyfill":"^1.7.3","node-fetch":"^2.6.1"},"fastboot":{"appName":"shlack","config":{"shlack":{"APP":{"autoboot":false,"name":"shlack","version":"0.0.0+7535a090"},"EmberENV":{"EXTEND_PROTOTYPES":{"Date":false},"FEATURES":{"EMBER_GLIMMER_ANGLE_BRACKET_BUILT_INS":true,"EMBER_GLIMMER_ANGLE_BRACKET_NESTED_LOOKUP":true,"EMBER_GLIMMER_FN_HELPER":true,"EMBER_METAL_TRACKED_PROPERTIES":true,"EMBER_NATIVE_DECORATOR_SUPPORT":true},"_APPLICATION_TEMPLATE_WRAPPER":false,"_JQUERY_INTEGRATION":false,"_TEMPLATE_ONLY_GLIMMER_COMPONENTS":true},"environment":"development","exportApplicationGlobal":true,"fastboot":{"hostWhitelist":["/localhost/"]},"locationType":"hash","modulePrefix":"shlack","rootURL":"/slack-clone/login"}},"hostWhitelist":["/localhost/"],"manifest":{"appFiles":["assets/shlack.js","assets/shlack-fastboot.js"],"htmlFile":"index.html","vendorFiles":["assets/vendor.js","ember-fetch/fetch-fastboot.js"]},"moduleWhitelist":["node-fetch","abortcontroller-polyfill","abortcontroller-polyfill/dist/cjs-ponyfill"],"schemaVersion":3}}
+{
+  "dependencies": {
+    "abortcontroller-polyfill": "^1.7.3",
+    "node-fetch": "^2.6.1"
+  },
+  "fastboot": {
+    "appName": "shlack",
+    "config": {
+      "shlack": {
+        "APP": {
+          "autoboot": false,
+          "name": "shlack",
+          "version": "0.0.0+7535a090"
+        },
+        "EmberENV": {
+          "EXTEND_PROTOTYPES": {
+            "Date": false
+          },
+          "FEATURES": {
+            "EMBER_GLIMMER_ANGLE_BRACKET_BUILT_INS": true,
+            "EMBER_GLIMMER_ANGLE_BRACKET_NESTED_LOOKUP": true,
+            "EMBER_GLIMMER_FN_HELPER": true,
+            "EMBER_METAL_TRACKED_PROPERTIES": true,
+            "EMBER_NATIVE_DECORATOR_SUPPORT": true
+          },
+          "_APPLICATION_TEMPLATE_WRAPPER": false,
+          "_JQUERY_INTEGRATION": false,
+          "_TEMPLATE_ONLY_GLIMMER_COMPONENTS": true
+        },
+        "environment": "development",
+        "exportApplicationGlobal": true,
+        "fastboot": {
+          "hostWhitelist": [
+            "/localhost/"
+          ]
+        },
+        "locationType": "hash",
+        "modulePrefix": "shlack",
+        "rootURL": "/slack-clone/login"
+      }
+    },
+    "hostWhitelist": [
+      "/localhost/"
+    ],
+    "manifest": {
+      "appFiles": [
+        "assets/shlack.js",
+        "assets/shlack-fastboot.js"
+      ],
+      "htmlFile": "index.html",
+      "vendorFiles": [
+        "assets/vendor.js",
+        "ember-fetch/fetch-fastboot.js"
+      ]
+    },
+    "moduleWhitelist": [
+      "node-fetch",
+      "abortcontroller-polyfill",
+      "abortcontroller-polyfill/dist/cjs-ponyfill"
+    ],
+    "schemaVersion": 3
+  }
+}
