@@ -4,8 +4,8 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'shlack',
     environment,
-    rootURL: '/',
-    locationType: 'auto',
+    rootURL: '/slack-clone/login',
+    locationType: 'hash',
     fastboot:{
       hostWhitelist:[/localhost/],
     },
