@@ -5,9 +5,10 @@ module.exports = function(environment) {
     modulePrefix: 'shlack',
     environment,
     rootURL: '/slack-clone/login',
+    // rootURL:'/login',
     locationType: 'hash',
     fastboot:{
-      hostWhitelist:[/localhost/],
+      hostWhitelist:[/localhost/,'https://chris-blesson.github.io/'],
     },
     EmberENV: {
       FEATURES: {
